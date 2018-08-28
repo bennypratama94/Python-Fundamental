@@ -23,7 +23,7 @@ def menuOne():
     while(numInput < 0 or numInput > 9):
         numInput = int(input("Masukkan angka yang diinginkan: "))
     numList.append(numInput)
-    input("Angka yang anda masukkan telah disimpan. Tekan ENTER untuk melanjutkan . . .")
+    input("Angka yang anda masukkan telah disimpan. Tekan ENTER untuk melanjutkan . .")
     
 def menuTwo():
     stringList = []
@@ -42,7 +42,7 @@ def menuTwo():
         if(i != 2):
             stringList.append("\n")
     print("".join(stringList))
-    input("Tekan ENTER untuk melanjutkan . . .")
+    input("Tekan ENTER untuk melanjutkan . .")
 
 def sevenSegments(number, part):
     if(part == "upper"):
